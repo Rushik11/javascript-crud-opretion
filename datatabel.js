@@ -268,7 +268,8 @@ tabelhed.innerHTML = `
 let currentPage = 0,
   numberPerPage = 5,
   numberOfPages = 1,
-  pageList = [];
+  pageList = [],
+  demo = '';
 
 let options = [2, 25, 50, 100];
 selectInput.innerHTML = options.map((res) => {
